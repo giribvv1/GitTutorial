@@ -14,6 +14,7 @@
 		FA7369F11F777D5A000F5BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7369EF1F777D5A000F5BAD /* LaunchScreen.storyboard */; };
 		FA7369FC1F777D5A000F5BAD /* ExGitTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7369FB1F777D5A000F5BAD /* ExGitTutorialTests.swift */; };
 		FA736A071F777D5A000F5BAD /* ExGitTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736A061F777D5A000F5BAD /* ExGitTutorialUITests.swift */; };
+		FA736A151F778F86000F5BAD /* DatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA736A141F778F86000F5BAD /* DatesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA736A021F777D5A000F5BAD /* ExGitTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExGitTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA736A061F777D5A000F5BAD /* ExGitTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExGitTutorialUITests.swift; sourceTree = "<group>"; };
 		FA736A081F777D5A000F5BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA736A141F778F86000F5BAD /* DatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FA7369E61F777D5A000F5BAD /* AppDelegate.swift */,
 				FA7369E81F777D5A000F5BAD /* ViewController.swift */,
+				FA736A141F778F86000F5BAD /* DatesViewController.swift */,
 				FA7369EA1F777D5A000F5BAD /* Main.storyboard */,
 				FA7369ED1F777D5A000F5BAD /* Assets.xcassets */,
 				FA7369EF1F777D5A000F5BAD /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				FA7369E91F777D5A000F5BAD /* ViewController.swift in Sources */,
 				FA7369E71F777D5A000F5BAD /* AppDelegate.swift in Sources */,
+				FA736A151F778F86000F5BAD /* DatesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

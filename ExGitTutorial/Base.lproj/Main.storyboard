@@ -35,5 +35,32 @@
             </objects>
             <point key="canvasLocation" x="24.375" y="32.74647887323944"/>
         </scene>
+        <!--Dates View Controller-->
+        <scene sceneID="MbO-Jz-b8u">
+            <objects>
+                <viewController id="Y2D-3Z-vZ9" customClass="DatesViewController" customModule="ExGitTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7GJ-fR-2Kk"/>
+                        <viewControllerLayoutGuide type="bottom" id="KVY-5r-nR2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fqn-ZX-ey1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="71K-P7-R2S">
+                                <rect key="frame" x="0.0" y="100" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="527929154.607306">
+                                    <!--2017-09-24 06:59:14 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CCr-H2-yhC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821.25" y="32.74647887323944"/>
+        </scene>
     </scenes>
 </document>
