@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         let dates = DatesViewController()
         print(dates)
         print("banana")
+        print("aaee")
     }
 
     override func didReceiveMemoryWarning() {
